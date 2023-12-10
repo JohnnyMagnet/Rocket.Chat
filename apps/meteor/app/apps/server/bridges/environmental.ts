@@ -7,7 +7,7 @@ export class AppEnvironmentalVariableBridge extends EnvironmentalVariableBridge 
 
 	constructor(private readonly orch: AppServerOrchestrator) {
 		super();
-		this.allowed = ['NODE_ENV', 'ROOT_URL', 'INSTANCE_IP'];
+		this.allowed = ['NODE_ENV', 'ROOT_URL', 'INSTANCE_IP', 'https://rocketchat-dev5.dev3.nekotal.tech'];
 	}
 
 	protected async getValueByName(envVarName: string, appId: string): Promise<string | undefined> {
