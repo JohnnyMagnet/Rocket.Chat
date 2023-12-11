@@ -14,7 +14,9 @@ export class AppEnvironmentalVariableBridge extends EnvironmentalVariableBridge 
 			'https://rocketchat-dev5.dev3.nekotal.tech',
 			'http://rocketchat-dev5.dev3.nekotal.tech',
 			'http://10.42.11.70:3000/',
-			'rocketchat.deliver.latoken.com'
+			'http://rocketchat.deliver.latoken.com',
+			'https://rocketchat.deliver.latoken.com',
+			'https://rocketchat.deliver.latoken.com'
 		];
 	}
 
