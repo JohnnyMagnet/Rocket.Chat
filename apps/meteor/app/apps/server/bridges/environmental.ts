@@ -16,7 +16,6 @@ export class AppEnvironmentalVariableBridge extends EnvironmentalVariableBridge 
 			'http://10.42.11.70:3000/',
 			'http://rocketchat.deliver.latoken.com',
 			'https://rocketchat.deliver.latoken.com',
-			'https://rocketchat.deliver.latoken.com'
 		];
 	}
 
